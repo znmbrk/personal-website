@@ -1,43 +1,58 @@
-# Astro Starter Kit: Minimal
+# Personal Website
 
-```sh
-npm create astro@latest -- --template minimal
-```
+A minimalist personal website built with Astro and TailwindCSS.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Features
 
-## 🚀 Project Structure
+- Clean, minimalist design inspired by [taimur.me](https://taimur.me)
+- Fast, lightweight static site
+- Responsive design optimized for all devices
+- Easy to maintain and customize
+- Deployed on GitHub Pages
 
-Inside of your Astro project, you'll see the following folders and files:
+## Pages
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- **Home**: Personal bio with links to other sections
+- **Bookshelf**: Curated list of impactful books organized by category
+- **Blog**: Writing and thoughts on various topics
+- **Projects**: Showcase of work and contributions
+- **Contact**: Ways to connect and current focus
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Tech Stack
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- **Framework**: [Astro](https://astro.build) - Static site generator
+- **Styling**: [TailwindCSS](https://tailwindcss.com) - Utility-first CSS framework
+- **Deployment**: GitHub Pages with automated deployment
+- **Development**: Node.js with npm
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Commands
 
-## 🧞 Commands
+All commands are run from the root of the project:
 
-All commands are run from the root of the project, from a terminal:
+| Command | Action |
+|---------|--------|
+| `npm install` | Install dependencies |
+| `npm run dev` | Start local dev server at `localhost:4321` |
+| `npm run build` | Build production site to `./dist/` |
+| `npm run preview` | Preview build locally |
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Customization
 
-## 👀 Want to learn more?
+1. **Personal Information**: Update the bio, name, and contact details in `src/pages/index.astro`
+2. **Bookshelf**: Add your favorite books in `src/pages/bookshelf.astro`
+3. **Projects**: Showcase your work in `src/pages/projects.astro`
+4. **Blog Posts**: Add your writing in `src/pages/blog.astro`
+5. **Styling**: Customize colors and spacing using TailwindCSS classes
+6. **Profile Image**: Add your headshot to the `public/` directory and update the image reference
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Deployment
+
+This site is configured to automatically deploy to GitHub Pages when changes are pushed to the main branch. Make sure to:
+
+1. Enable GitHub Pages in your repository settings
+2. Set the source to "GitHub Actions"
+3. Push your changes to the main branch
+
+## License
+
+MIT License - Feel free to use this template for your own personal website!
